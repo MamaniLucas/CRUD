@@ -1,0 +1,40 @@
+﻿<Window x:Class="CRUD.agregar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CRUD"
+        mc:Ignorable="d"
+        Title="agregar" Height="450" Width="800" Background="Pink">
+    <Grid>
+
+        <StackPanel>
+
+            <Label HorizontalAlignment="Center">IDCLIENTE:</Label>
+            <TextBox x:Name="txtidCliente" Width="200"/>
+            <Label HorizontalAlignment="Center">NOMBRE COMPAÑIA:</Label>
+            <TextBox x:Name="txtNombreCompañia" Width="200"/>
+            <Label HorizontalAlignment="Center">NOMBRE CONTACTO:</Label>
+            <TextBox x:Name="txtNombreContacto" Width="200"/>
+            <Label HorizontalAlignment="Center">CARGO CONTACTO:</Label>
+            <TextBox x:Name="txtCargoContacto" Width="200"/>
+            <Label HorizontalAlignment="Center">DIRECCION:</Label>
+            <TextBox x:Name="txtDireccion" Width="200"/>
+            <Label HorizontalAlignment="Center">CIUDAD:</Label>
+            <TextBox x:Name="txtCiudad" Width="200"/>
+            <Label HorizontalAlignment="Center">REGION:</Label>
+            <TextBox x:Name="txtRegion" Width="200"/>
+            <Label HorizontalAlignment="Center">CODIGO POSTAL:</Label>
+            <TextBox x:Name="txtCodPostal" Width="200"/>
+            <Label HorizontalAlignment="Center">PAIS:</Label>
+            <TextBox x:Name="txtPais" Width="200"/>
+            <Label HorizontalAlignment="Center">TELEFONO:</Label>
+            <TextBox x:Name="txtTelefono" Width="200"/>
+            <Label HorizontalAlignment="Center">FAX:</Label>
+            <TextBox x:Name="txtFax" Width="200"/>
+
+
+        </StackPanel>
+        
+    </Grid>
+</Window>
