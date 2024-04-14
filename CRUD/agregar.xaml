@@ -35,6 +35,7 @@
 
 
         </StackPanel>
-        
+           <Button Content="Agregar" Click="btnAgregar_Click" Background="HotPink"
+Foreground="White" BorderBrush="Transparent" BorderThickness="2" Width="150" Height="50"/>
     </Grid>
 </Window>
