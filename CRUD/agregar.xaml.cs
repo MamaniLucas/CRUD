@@ -30,10 +30,10 @@ namespace CRUD
             try
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("NombreProcedimientoInsertar", connection);
+                SqlCommand command = new SqlCommand("USP_InsertarClientes", connection);
                 command.CommandType = CommandType.StoredProcedure;
-                command.Parameters.AddWithValue("@parametro1", valor1);
-                command.Parameters.AddWithValue("@parametro2", valor2);
+                command.Parameters.AddWithValue("@IdCliente", valor1);
+                command.Parameters.AddWithValue("@IdNombreCompañia", valor2);
                 // Agrega los parámetros restantes según tu procedimiento almacenado
             
                 command.ExecuteNonQuery();
